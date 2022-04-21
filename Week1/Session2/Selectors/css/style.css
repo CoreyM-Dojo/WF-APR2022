@@ -1,0 +1,44 @@
+/* Resetters */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Id Selector */
+#orange {
+    color: orange;
+    background-color: black;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 1.2em;
+}
+
+/* Class Selector */
+.blue {
+    color: blue;
+}
+.purple {
+    color: purple;
+    background:none;
+}
+
+/* Tagname Selectors */
+p {
+    color: red;
+}
+
+/* Chaining selectors */
+.purple-text div p {
+    color: pink;
+}
+.purple-text p {
+    color: green;
+}
+
+/* Multi-selectors */
+p, h1 {
+    color: aquamarine;
+    background-color:black;
+}

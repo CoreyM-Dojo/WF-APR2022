@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Manipulation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 onmouseover="changeTextColor()" onmouseout="revert()">Hello World</h1>
+    <button onclick="fillTextOnPage()">Click Me</button>
+    <p onclick="this.remove()">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, ut voluptatem! Quam laborum ipsam nesciunt eius fugiat cum earum molestias, ipsa hic magni repellendus tenetur qui officia, consectetur quaerat itaque.</p>
+    <select onchange="changePic(this)" id="dropdown">
+        <option>Charizard</option>
+        <option>Eevee</option>
+    </select>
+    <img src="images/charizard.png" alt="char" id="target">
+    <script src="js/script.js"></script>
+</body>
+</html>
