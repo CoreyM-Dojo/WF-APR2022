@@ -9,10 +9,10 @@ for (var i = 0; i < 10; i++) {
 }
 
 var array = [1,2,3,4,5,6,7]
-var arrayLength = array.length // Arrays are also objects and one of the keys of that object is 'length'
+// array.length // Arrays are also objects and one of the keys of that object is 'length'
 
 // Looping through an array 
-for (var i = 0; i < arrayLength; i++) {
+for (var i = 0; i < array.length; i++) {
     // We use 0 to start because arrays are 0 indexed so we want to start from teh beginning
     console.log(array[i]) // i will keep increasing each time we loop so the index you are accessing will change
 } // What happens if we make the condition i <= arrayLength?
@@ -28,6 +28,31 @@ if (num <= 10) {
 }
 
 // Fizzbuzz -> Very popular basic algorithm
+
+// Loop through 1 - 2000
+
+// Print fizz to thew console if i is divisible by 3
+
+// Print Buzz if it is divisible by 5
+
+// Print FizzBuzz if divisible by both
+
+// Otherwise just print the number
+
+// for (var i = 1; i <= 2000; i++) {
+//     if (i%3 == 0 && i%5 == 0) {
+//         console.log("FIzzBuzz");
+//     } 
+//     else if (i%3 == 0) {
+//         console.log("Fizz")
+//     } 
+//     else if (i%5 == 0) {
+//         console.log("Buzz")
+//     } 
+//     else {
+//         console.log(i)
+//     }
+// }
 
 // While loops
 
