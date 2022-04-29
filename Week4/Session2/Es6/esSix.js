@@ -100,11 +100,14 @@ if (true) {
 // ternaries are shorthand conditionals
 let isOdd = true
 
-for (let i = 0; i <= 10; i++) {
+for (let i = 1; i <= 10; i++) {
     console.log(i)
 
     isOdd = (i%2 !==0)
 
+    // condition ? if-true : if false
+
+    // set message to either "This is odd" or "This is even" dependent on the value of the variable isOdd (Boolean)
     let message = isOdd ? "This is odd!" : "This number is even!";
     console.log(message);
 }
@@ -121,7 +124,7 @@ function fizzBuzz() {
     } 
 }
 
-fizzBuzz();
+// fizzBuzz();
 
 // Normal function
 
@@ -132,15 +135,31 @@ function hello() {
 // Arrow function
 
 const hello2 = () => {
-    console.log("Hellow World")
+    console.log("Hello World")
 }
 
 // Arrow functions implicitly return themselves, lets combine ternaries with arrow functions
-let evenOrOdd = (num) => (num%2 == 0) ? "even" : "odd"
+let evenOrOdd = (num) => (num%2 == 0) ? "even" : "odd" // Chec if the number is even or odd
 
 // BOOM! We have a one line function with value
 console.log(evenOrOdd(5)) // "odd"
 console.log(evenOrOdd(2)) // "even"
+
+switch(isOdd) {
+    case true:
+        console.log("Its true")
+    
+}
+
+const add = () => {
+    console.log("add")
+}
+
+function add() {
+    console.log("subtract")
+}
+
+add();
 
 
 
